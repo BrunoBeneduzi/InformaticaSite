@@ -1,0 +1,174 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Branco acinzentado */
+    color: #333;
+}
+
+header {
+    background-image: url('feitaComAmor2.jpeg'); /* Imagem de fundo do cabeçalho */
+    background-size: cover; /* Faz a imagem cobrir todo o cabeçalho */
+    background-position: center; /* Centraliza a imagem */
+    background-attachment: fixed; /* Mantém a imagem fixa ao rolar */
+    color: white;
+    padding: 60px 40px; /* Aumenta o padding para dar espaço à imagem */
+    text-align: center;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-container {
+    margin-right: 20px;
+}
+
+.logo {
+    width: 120px;  /* Ajuste para o tamanho desejado */
+    height: 120px; /* Ajuste para o tamanho desejado */
+    border-radius: 50%; /* Mantém o formato circular, se desejado */
+}
+
+.texto-container h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra suave */
+}
+
+.texto-container p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra suave */
+}
+
+#servicos {
+    padding: 20px;
+    text-align: center;
+}
+
+#servicos h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra suave */
+}
+
+.servicos-container {
+    display: flex; /* Usar Flexbox */
+    flex-wrap: wrap; /* Permitir que os itens quebrem para a próxima linha */
+    justify-content: center; /* Centraliza os itens */
+    gap: 100px; /* Espaço entre os itens */
+    margin-top: 40px;
+}
+
+figure {
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    width: 200px; /* Largura fixa ou desejada */
+}
+
+figure img {
+    width: 100%; /* Imagem ocupará 100% da largura do figure */
+    height: auto; /* Mantém a proporção */
+}
+
+figcaption {
+    margin-top: 10px;
+    font-size: 1.1rem;
+    color: #333;
+}
+
+#contato {
+    background-image: url('feitaComAmor2.jpeg'); /* Imagem de fundo da seção de contato */
+    background-size: cover; /* Faz a imagem cobrir toda a seção */
+    background-position: center; /* Centraliza a imagem */
+    background-attachment: fixed; /* Mantém a imagem fixa ao rolar */
+    padding: 30px;
+    text-align: center;
+    color: white;
+}
+
+#contato h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra suave */
+}
+
+.contatos a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.contatos a:hover {
+    color: #ddd;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
+/* Estilos para a navegação */
+nav {
+    display: flex; /* Torna o contêiner flexível */
+    flex-wrap: wrap; /* Permite que os itens se movam para a linha seguinte, se necessário */
+    justify-content: center; /* Centraliza os itens */
+}
+
+nav a {
+    font-family: 'Montserrat', sans-serif; /* Fonte elegante */
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #fff; /* Cor branca para o texto */
+    text-decoration: none; /* Remove o sublinhado */
+    margin: 30px 45px; /* Espaçamento entre os links */
+    padding: 10px 20px; /* Padding para aumentar a área clicável */
+    border: 2px solid #fff; /* Borda branca */
+    border-radius: 25px; /* Bordas arredondadas */
+    background-color: #2a9d8f; /* Cor de fundo verde */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Transição suave para hover */
+}
+
+nav a:hover {
+    background-color: #fff; /* Cor de fundo branca no hover */
+    color: #2a9d8f; /* Cor de texto verde no hover */
+    border-color: #2a9d8f; /* Borda verde no hover */
+}
+
+/* Estilos da seção "Sobre" */
+#sobre {
+    padding: 20px;
+    text-align: center;
+}
+
+#sobre h2 {
+    font-size: 45px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+#sobre p {
+    font-size: 30px;
+    color: #555;
+    margin: 40px 0;
+    line-height: 1.6;
+}
+
+/* Estilos para o rodapé */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
